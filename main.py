@@ -119,7 +119,7 @@ def tree_traversal(formula):  #обход дерева разбора форму
     elif formula.operator == '\\/':
         return disjunction(formula)  #рекурсивный вызов для двух потомков
 
-                                                                                                                # и проверка вложенности дизъюнкции
+                                                                                                                
 def check_no(formula):
     if type(formula.first) != str:  # проверка на вложенность оператора логическое отрицание
         return False
